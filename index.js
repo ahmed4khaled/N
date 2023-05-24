@@ -10,7 +10,7 @@ form[0].onsubmit = function (el) {
 
     for (let i = 1; i <= parent.value; i++) {
         let myEl = document.createElement(type.value)  
-        let mytext = document.createTextNode(`I love ${text.value} , I breathe you`)
+        let mytext = document.createTextNode(` Hello ${text.value} `)
 
        
         myEl.className = "box";
